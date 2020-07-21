@@ -1,0 +1,52 @@
+body {
+    margin: 20px auto;
+    max-width: 500px;
+    font-size: 16px;
+  }
+  
+  /* nav */
+  nav {
+    display: grid;
+    grid: auto / auto-flow;
+    padding: 3px;
+    margin-bottom: 24px;
+    background: #eee;
+    border-radius: 10px;
+  }
+  a {
+    display: block;
+    color: #000;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  a.active {
+    background: #fff;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* slide */
+  .slide-routes {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .slide-routes > div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 650px;
+    color: #fff;
+    font-size: 64px;
+  }
+  .home {
+    background: orange;
+  }
+  .about {
+    background: blue;
+  }
+  .contact {
+    background: green;
+  }
+  
